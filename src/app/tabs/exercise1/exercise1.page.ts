@@ -6,11 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exercise1.page.scss'],
 })
 export class Exercise1Page implements OnInit {
-  isSmallScreen: boolean;
 
-  constructor() {
-    this.isSmallScreen = window.innerWidth <= 400;
-   }
+  constructor() { }
 
   ngOnInit() {
   }
