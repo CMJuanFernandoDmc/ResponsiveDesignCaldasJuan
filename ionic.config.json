@@ -1,0 +1,7 @@
+{
+  "name": "ResponsiveDesignCaldasJuan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
