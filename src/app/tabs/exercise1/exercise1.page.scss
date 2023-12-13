@@ -1,0 +1,11 @@
+ion-card {
+    background-color: lightblue; /* Fondo predeterminado */
+  
+    @media screen and (max-width: 400px) {
+      background-color: lightcoral; /* Cambiar el fondo cuando el ancho de la pantalla es <= 400px */
+    }
+  }
+  
+  .small-screen {
+    background-color: lightcoral; /* Cambiar el fondo cuando el ancho de la pantalla es <= 400px */
+  }
