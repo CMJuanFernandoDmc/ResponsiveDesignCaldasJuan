@@ -1,0 +1,13 @@
+.content1, .content2 {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .content1 {
+    order: 2;
+  }
+  .content2 {
+    order: 1;
+  }
+}
