@@ -1,0 +1,11 @@
+.text,.imagen {
+  margin: 1.25rem;
+  padding: 0.625rem;
+  border: 1px solid #000000;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .imagen {
+    display: none;
+  }
+}
